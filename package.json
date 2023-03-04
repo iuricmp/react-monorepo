@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "install": "./node_modules/.bin/concurrently 'cd packages/components && yarn' 'cd packages/server && yarn' 'cd packages/web && yarn'"
+    "install": "./node_modules/.bin/concurrently 'cd packages/components && yarn' 'cd packages/server && yarn' 'cd packages/web && yarn' 'cd packages/api && yarn'"
   },
   "dependencies": {
     "concurrently": "^7.6.0"

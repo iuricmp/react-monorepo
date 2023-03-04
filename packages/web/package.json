@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@app/components": "*",
+    "@app/api": "*",
     "react": "^16.13.1",
     "react-app-rewired": "^2.1.8",
     "react-dom": "^16.13.1"
