@@ -2,5 +2,13 @@
   "name": "typescript-monorepo",
   "version": "1.0.0",
   "private": true,
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "install": "./node_modules/.bin/concurrently 'cd packages/components && yarn' 'cd packages/server && yarn' 'cd packages/web && yarn'"
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
 }
