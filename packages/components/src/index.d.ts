@@ -1,1 +1,0 @@
-export { MyType } from "./types"
